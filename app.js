@@ -5,8 +5,12 @@ const http = require('http');
 const server = http.createServer((req, res) => {
     // Set the response HTTP header with HTTP status and Content type
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    // Send the response body as "Hello World"
-    res.end('Hello World\n');
+    // Extract the name from the query parameters
+    const url = new URL(req.url, `http://${req.headers.host}`);
+    const name = url.searchParams.get('name') || 'World';
+
+    // Send the response body as "Hello {name}"
+    res.end(`Hello ${name}\n`);
 });
 
 // The server listens on port 3000
