@@ -1,0 +1,108 @@
+2025-11-17T03:12:37.341368Z|cov-internal-capture-files|11733|info|> cov-internal-capture-files version 2025.9.0 on Darwin 24.6.0 x86_64
+2025-11-17T03:12:37.341840Z|cov-internal-capture-files|11733|info|> Internal version numbers: 477d3c5ddd p-2025.9-push-57
+2025-11-17T03:12:37.341862Z|cov-internal-capture-files|11733|info|> 
+2025-11-17T03:12:37.341878Z|cov-internal-capture-files|11733|info|> Dumping from hostname : BD-MB51432
+2025-11-17T03:12:37.341892Z|cov-internal-capture-files|11733|info|> 
+2025-11-17T03:12:37.341906Z|cov-internal-capture-files|11733|info|> Platform info:
+2025-11-17T03:12:37.341920Z|cov-internal-capture-files|11733|info|> Sysname = Darwin
+2025-11-17T03:12:37.341932Z|cov-internal-capture-files|11733|info|> Release = 24.6.0
+2025-11-17T03:12:37.341945Z|cov-internal-capture-files|11733|info|> Machine = x86_64
+2025-11-17T03:12:37.341958Z|cov-internal-capture-files|11733|info|> 
+2025-11-17T03:12:37.341971Z|cov-internal-capture-files|11733|info|> 
+2025-11-17T03:12:37.341984Z|cov-internal-capture-files|11733|info|> Buildless capture started.
+2025-11-17T03:12:37.342169Z|cov-internal-capture-files|11733|info|> xml.cpp:21:parse_xml_config_file: : Trying top-level configuration file /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml
+2025-11-17T03:12:37.353014Z|cov-internal-capture-files|11733|info|> '/Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-MB51432/emit-db' temp store dir =
+2025-11-17T03:12:37.353049Z|cov-internal-capture-files|11733|info|>    '/var/folders/1n/mv23pmhj5k33n0pxn2x7d0kh0000gn/T/cov-berta/797a68734ef345f5d398f16ba34bc258'
+2025-11-17T03:12:37.356233Z|cov-internal-capture-files|11733|info|> Emitting 2 Files.
+2025-11-17T03:12:37.356596Z|cov-internal-capture-files|11733|info|> Executing: /Users/berta/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-translate --record-with-source --dir /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir --config /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/tmp/cicf-797a68734ef345f5d398f16ba34bc258/top_config.xml cov-buildless-capture-capture-config-files-0 --coverity_resp_file=/Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/tmp/cicf-797a68734ef345f5d398f16ba34bc258/cov-translate-resp-file1
+2025-11-17T03:12:37.356659Z|cov-internal-capture-files|11733|info|> pipe_commands starting: /Users/berta/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-translate --record-with-source --dir /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir --config /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/tmp/cicf-797a68734ef345f5d398f16ba34bc258/top_config.xml cov-buildless-capture-capture-config-files-0 --coverity_resp_file=/Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/tmp/cicf-797a68734ef345f5d398f16ba34bc258/cov-translate-resp-file1 
+2025-11-17T03:12:37.357667Z|cov-internal-capture-files|11733|info|> Executing: /Users/berta/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-translate --record-with-source --dir /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir --config /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/tmp/cicf-797a68734ef345f5d398f16ba34bc258/top_config.xml cov-buildless-capture-javascript-0 --coverity_resp_file=/Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/tmp/cicf-797a68734ef345f5d398f16ba34bc258/cov-translate-resp-file2
+2025-11-17T03:12:37.357718Z|cov-internal-capture-files|11733|info|> pipe_commands starting: /Users/berta/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-translate --record-with-source --dir /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir --config /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/tmp/cicf-797a68734ef345f5d398f16ba34bc258/top_config.xml cov-buildless-capture-javascript-0 --coverity_resp_file=/Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/tmp/cicf-797a68734ef345f5d398f16ba34bc258/cov-translate-resp-file2 
+2025-11-17T03:12:38.572688Z|cov-translate|11738|info|> * Configuring JavaScript Buildless Capture (javascript)
+2025-11-17T03:12:38.572767Z|cov-translate|11737|info|> * Configuring Configuration Buildless Capture
+2025-11-17T03:12:38.574084Z|cov-translate|11737|info|> Added template compiler configuration instance /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-MB51432/config/13bc78efb2e5f3f921412d776f9828bb/coverity_config.xml
+2025-11-17T03:12:38.576657Z|cov-translate|11738|info|> Added template compiler configuration instance /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-MB51432/config/ce14c1c78630bed0ad0b9ba5366f8dd8/coverity_config.xml
+2025-11-17T03:12:38.580407Z|cov-translate|11737|info|> Configuration read from: /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-MB51432/config/13bc78efb2e5f3f921412d776f9828bb/coverity_config.xml
+2025-11-17T03:12:38.580484Z|cov-translate|11737|info|> Node: coverity
+2025-11-17T03:12:38.580504Z|cov-translate|11737|info|>   Node: cit_version Value: 1
+2025-11-17T03:12:38.580516Z|cov-translate|11737|info|>   Node: config
+2025-11-17T03:12:38.580525Z|cov-translate|11737|info|>     Node: include Value: /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-MB51432/config/13bc78efb2e5f3f921412d776f9828bb/capture-config-files-config-0/coverity_config.xml
+2025-11-17T03:12:38.580535Z|cov-translate|11737|info|> Configuration read from: /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-MB51432/config/13bc78efb2e5f3f921412d776f9828bb/capture-config-files-config-0/coverity_config.xml
+2025-11-17T03:12:38.580544Z|cov-translate|11737|info|> Node: coverity
+2025-11-17T03:12:38.580554Z|cov-translate|11737|info|>   Node: cit_version Value: 1
+2025-11-17T03:12:38.580579Z|cov-translate|11737|info|>   Node: config
+2025-11-17T03:12:38.580592Z|cov-translate|11737|info|>     Node: build
+2025-11-17T03:12:38.580605Z|cov-translate|11737|info|>       Node: compiler
+2025-11-17T03:12:38.580615Z|cov-translate|11737|info|>         Node: comp_name Value: cov-buildless-capture-capture-config-files-0
+2025-11-17T03:12:38.580624Z|cov-translate|11737|info|>         Node: comp_translator Value: capture-config-files
+2025-11-17T03:12:38.580634Z|cov-translate|11737|info|>         Node: comp_lang Value: Non Compiled
+2025-11-17T03:12:38.580645Z|cov-translate|11737|info|>         Node: comp_front_end Value: cov-internal-emit-misc
+2025-11-17T03:12:38.580656Z|cov-translate|11737|info|>         Node: comp_desc Value: Configuration Buildless Capture
+2025-11-17T03:12:38.580665Z|cov-translate|11737|info|>         Node: comp_generic Value: capture_config_files
+2025-11-17T03:12:38.580674Z|cov-translate|11737|info|>         Node: id Value: capture-config-files-cov-buildless-capture-capture-config-files-0-13bc78efb2e5f3f921412d776f9828bb-0
+2025-11-17T03:12:38.580684Z|cov-translate|11737|info|>         Node: is_compiler Value: true
+2025-11-17T03:12:38.580693Z|cov-translate|11737|info|>         Node: is_linker Value: false
+2025-11-17T03:12:38.580702Z|cov-translate|11737|info|>       Node: options
+2025-11-17T03:12:38.580711Z|cov-translate|11737|info|>         Node: id Value: capture-config-files-cov-buildless-capture-capture-config-files-0-13bc78efb2e5f3f921412d776f9828bb-0
+2025-11-17T03:12:38.580721Z|cov-translate|11737|info|>         Node: template_config_option_id Value: capture-config-files-cov-buildless-capture-capture-config-files-0-.*
+2025-11-17T03:12:38.580730Z|cov-translate|11737|info|>         Node: compile_options
+2025-11-17T03:12:38.580740Z|cov-translate|11737|info|>         Node: prepend_arg Value: --language=capture-config-files
+2025-11-17T03:12:38.580749Z|cov-translate|11737|info|>         Node: split
+2025-11-17T03:12:38.580769Z|cov-translate|11737|info|>           Node: options
+2025-11-17T03:12:38.580781Z|cov-translate|11738|info|> Configuration read from: /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-MB51432/config/ce14c1c78630bed0ad0b9ba5366f8dd8/coverity_config.xml
+2025-11-17T03:12:38.580791Z|cov-translate|11738|info|> Node: coverity
+2025-11-17T03:12:38.580800Z|cov-translate|11738|info|>   Node: cit_version Value: 1
+2025-11-17T03:12:38.580809Z|cov-translate|11738|info|>   Node: config
+2025-11-17T03:12:38.580818Z|cov-translate|11738|info|>     Node: include Value: /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-MB51432/config/ce14c1c78630bed0ad0b9ba5366f8dd8/javascript-config-0/coverity_config.xml
+2025-11-17T03:12:38.580827Z|cov-translate|11738|info|> Configuration read from: /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/emit/BD-MB51432/config/ce14c1c78630bed0ad0b9ba5366f8dd8/javascript-config-0/coverity_config.xml
+2025-11-17T03:12:38.580836Z|cov-translate|11738|info|> Node: coverity
+2025-11-17T03:12:38.580845Z|cov-translate|11738|info|>   Node: cit_version Value: 1
+2025-11-17T03:12:38.580854Z|cov-translate|11738|info|>   Node: config
+2025-11-17T03:12:38.580863Z|cov-translate|11738|info|>     Node: build
+2025-11-17T03:12:38.580871Z|cov-translate|11738|info|>       Node: compiler
+2025-11-17T03:12:38.580880Z|cov-translate|11738|info|>         Node: comp_name Value: cov-buildless-capture-javascript-0
+2025-11-17T03:12:38.580889Z|cov-translate|11738|info|>         Node: comp_translator Value: javascript
+2025-11-17T03:12:38.580898Z|cov-translate|11738|info|>         Node: comp_lang Value: Non Compiled
+2025-11-17T03:12:38.580908Z|cov-translate|11738|info|>         Node: comp_front_end Value: cov-internal-emit-misc
+2025-11-17T03:12:38.580925Z|cov-translate|11737|info|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2025-11-17T03:12:38.580936Z|cov-translate|11737|info|>         Node: expand
+2025-11-17T03:12:38.580945Z|cov-translate|11737|info|>           Node: options
+2025-11-17T03:12:38.580954Z|cov-translate|11737|info|>             Node: intern_split_response_file_fn Value: line_split
+2025-11-17T03:12:38.580963Z|cov-translate|11737|info|>         Node: begin_command_line_config
+2025-11-17T03:12:38.580972Z|cov-translate|11737|info|>   Node: md5 Value: 4b6bcbcd3090220a04c9ccd1777b3a92
+2025-11-17T03:12:38.580982Z|cov-translate|11738|info|>         Node: comp_desc Value: JavaScript Buildless Capture (javascript)
+2025-11-17T03:12:38.580991Z|cov-translate|11738|info|>         Node: comp_generic Value: javascript
+2025-11-17T03:12:38.581001Z|cov-translate|11738|info|>         Node: id Value: javascript-cov-buildless-capture-javascript-0-ce14c1c78630bed0ad0b9ba5366f8dd8-0
+2025-11-17T03:12:38.581010Z|cov-translate|11738|info|>         Node: is_compiler Value: true
+2025-11-17T03:12:38.581019Z|cov-translate|11738|info|>         Node: is_linker Value: false
+2025-11-17T03:12:38.581028Z|cov-translate|11738|info|>       Node: options
+2025-11-17T03:12:38.581036Z|cov-translate|11738|info|>         Node: id Value: javascript-cov-buildless-capture-javascript-0-ce14c1c78630bed0ad0b9ba5366f8dd8-0
+2025-11-17T03:12:38.581046Z|cov-translate|11738|info|>         Node: template_config_option_id Value: javascript-cov-buildless-capture-javascript-0-.*
+2025-11-17T03:12:38.581055Z|cov-translate|11738|info|>         Node: compile_options
+2025-11-17T03:12:38.581064Z|cov-translate|11738|info|>         Node: prepend_arg Value: --language=javascript
+2025-11-17T03:12:38.581072Z|cov-translate|11738|info|>         Node: split
+2025-11-17T03:12:38.581081Z|cov-translate|11738|info|>           Node: options
+2025-11-17T03:12:38.581090Z|cov-translate|11738|info|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2025-11-17T03:12:38.581099Z|cov-translate|11738|info|>         Node: expand
+2025-11-17T03:12:38.581107Z|cov-translate|11738|info|>           Node: options
+2025-11-17T03:12:38.581116Z|cov-translate|11738|info|>             Node: intern_split_response_file_fn Value: line_split
+2025-11-17T03:12:38.581133Z|cov-translate|11738|info|>         Node: begin_command_line_config
+2025-11-17T03:12:38.581143Z|cov-translate|11738|info|>   Node: md5 Value: 7158154da47c61d368173de835ded988
+2025-11-17T03:12:38.587413Z|cov-translate|11737|info|> [WARNING] --record-with-source is not supported for cov-internal-emit-misc with the given target language, ignoring
+2025-11-17T03:12:38.587558Z|cov-translate|11737|info|> [STATUS] Compiling /Users/berta/Developer/Brae1117-good/README.md
+2025-11-17T03:12:38.587595Z|cov-translate|11737|info|> /Users/berta/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-internal-emit-misc --dir=/Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir --language=capture-config-files /Users/berta/Developer/Brae1117-good/README.md 
+2025-11-17T03:12:38.587782Z|cov-translate|11737|info|> Command line with response file: /Users/berta/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-internal-emit-misc @utf8@/Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/tmp/cov-internal-emit-misc-5d652473bb48d72e06a90a6786d2a60a-0.cmd_args.txt
+2025-11-17T03:12:38.588976Z|cov-translate|11738|info|> [STATUS] Compiling /Users/berta/Developer/Brae1117-good/app.js
+2025-11-17T03:12:38.589011Z|cov-translate|11738|info|> /Users/berta/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-record-source --record-with-source-language javascript --dir=/Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir --language=javascript /Users/berta/Developer/Brae1117-good/app.js 
+2025-11-17T03:12:38.589251Z|cov-translate|11738|info|> Command line with response file: /Users/berta/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-record-source @utf8@/Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/tmp/cov-internal-emit-misc-ed94b44b275758c5973092078b2d23db-0.cmd_args.txt --record-with-source-language javascript
+2025-11-17T03:12:39.246140Z|cov-translate|11737|info|> Coverity Internal Misc Emit version 2025.9.0 on Darwin 24.6.0 x86_64
+2025-11-17T03:12:39.246181Z|cov-translate|11737|info|> Internal version numbers: 477d3c5ddd p-2025.9-push-57
+2025-11-17T03:12:39.246194Z|cov-translate|11737|info|> 
+2025-11-17T03:12:39.253988Z|cov-translate|11737|info|> [INFO] Expanded command line: /Users/berta/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-emit-text --dir /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir -- /Users/berta/Developer/Brae1117-good/README.md 
+2025-11-17T03:12:39.254022Z|cov-translate|11737|info|> [INFO] Command line with response file: /Users/berta/.blackduck/bridge/tools/cov-thin-client/2025.9.0/bin/cov-emit-text --dir /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir @utf8@/Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/tmp/cejf-669468f512ea92ff997232e505b3c76d/emit-text-argfile-0.txt 
+2025-11-17T03:12:39.360731Z|cov-internal-capture-files|11733|info|> cov-translate with PID 11738 exited with code 0
+2025-11-17T03:12:39.954635Z|cov-translate|11737|info|> Detected US-ASCII encoding for /Users/berta/Developer/Brae1117-good/README.md
+2025-11-17T03:12:39.961138Z|cov-translate|11737|info|> cov-internal-emit-misc took 0s
+2025-11-17T03:12:39.961192Z|cov-translate|11737|info|> 
+2025-11-17T03:12:39.974009Z|cov-internal-capture-files|11733|info|> cov-translate with PID 11737 exited with code 0
+2025-11-17T03:12:39.975398Z|cov-internal-capture-files|11733|info|> Buildless capture completed.

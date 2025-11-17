@@ -1,0 +1,27 @@
+{
+  "V1": {
+    "file_metrics": {
+      "files_discovered": 19,
+      "files_analyzed": 5,
+      "skipped_files_code_exclusion": 12,
+      "skipped_files_scm_ignored": 0,
+      "skipped_files_too_large": 0,
+      "skipped_files_others": 2,
+      "files_by_language": {
+        "JSON": 1,
+        "Markdown": 1,
+        "JavaScript": 1,
+        "Unknown": 2
+      }
+    },
+    "defect_metrics": {
+      "missing_tls": {
+        "Low": 1
+      }
+    },
+    "performance": {
+      "total_duration_microseconds": 1045646.0,
+      "total_duration": "1 second"
+    }
+  }
+}
