@@ -1,0 +1,5 @@
+/Users/berta/.blackduck/desktop/controller/installedtools/bridge/3.9.2/adapters/polaris-issues-fetcher/versions/0.2.83/polaris-issues-fetcher /Users/berta/Developer/Brae1117-good/.bridge/polaris_issues_fetcher/data.json
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Fetching issues for \"SAST(sastFull)\" assessment","time":"2025-11-16 19:15:14.9845 PST"}
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Fetching issues for \"SCA(scaPackage)\" assessment","time":"2025-11-16 19:15:14.9853 PST"}
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Successfully fetched issues for assessment type \"SCA(scaPackage)\" with id \"bac4f692-0687-47bf-ba1d-573409940c93\"\n {\n \"critical\": 0,\n \"high\": 0,\n \"informational\": 0,\n \"low\": 0,\n \"medium\": 0\n}\n","time":"2025-11-16 19:15:15.2249 PST"}
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Successfully fetched issues for assessment type \"SAST(sastFull)\" with id \"993db9ab-314e-47e7-abd2-b7f8df3ac529\"\n {\n \"critical\": 0,\n \"high\": 0,\n \"informational\": 0,\n \"low\": 1,\n \"medium\": 0\n}\n","time":"2025-11-16 19:15:15.3371 PST"}

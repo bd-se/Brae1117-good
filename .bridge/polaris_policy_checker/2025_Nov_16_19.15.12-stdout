@@ -1,0 +1,4 @@
+/Users/berta/.blackduck/desktop/controller/installedtools/bridge/3.9.2/adapters/polaris-policy-checker/versions/0.2.81/polaris-policy-checker /Users/berta/Developer/Brae1117-good/.bridge/polaris_policy_checker/data.json
+{"level":"info","logger":"Polaris Policy Checker","msg":"Checking for policy violations for \"SAST(sastFull)\" assessment...","time":"2025-11-16 19:15:13.7100 PST"}
+{"level":"info","logger":"Polaris Policy Checker","msg":"Checking for policy violations for \"SCA(scaPackage)\" assessment...","time":"2025-11-16 19:15:13.7108 PST"}
+{"level":"info","logger":"Polaris Policy Checker","msg":"no policies were violated to break the build","time":"2025-11-16 19:15:14.1049 PST"}

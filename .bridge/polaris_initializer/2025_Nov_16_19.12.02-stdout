@@ -1,0 +1,3 @@
+/Users/berta/.blackduck/desktop/controller/installedtools/bridge/3.9.2/adapters/polaris-initializer/versions/1.0.174/polaris-initializer /Users/berta/Developer/Brae1117-good/.bridge/polaris_initializer/data.json
+{"level":"info","logger":"Polaris Initializer","msg":"Successfully created test for \"SAST(sastFull)\" assessment. The short test ID is \"3QJS7X9\"","time":"2025-11-16 19:12:04.4311 PST"}
+{"level":"info","logger":"Polaris Initializer","msg":"Successfully created test for \"SCA(scaPackage)\" assessment. The short test ID is \"0SRLLAA\"","time":"2025-11-16 19:12:04.4311 PST"}

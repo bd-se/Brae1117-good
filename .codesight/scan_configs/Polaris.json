@@ -1,0 +1,103 @@
+{
+  "configId": {
+    "id": "97065f01-758e-4ec2-8cb8-dc250ce2f5eb"
+  },
+  "scanType": {
+    "type": 1,
+    "name": "Polaris",
+    "supportsDiffing": true,
+    "description": "Runs both static and software composition analysis scans. Detects hard-coded secrets, security defects, and vulnerabilities in both proprietary and open source code."
+  },
+  "coverityConfig": {
+    "configFilePath": {
+      "source": {
+        "type": 8
+      }
+    },
+    "additionalAnalysisArguments": {
+      "source": {
+        "type": 8
+      }
+    }
+  },
+  "blackDuckConfig": {
+    "additionalArguments": {
+      "source": {
+        "type": 8
+      }
+    },
+    "configFilePath": {
+      "source": {
+        "type": 8
+      }
+    },
+    "searchDepth": {
+      "source": {
+        "type": 8
+      }
+    }
+  },
+  "bridgeConfig": {
+    "installationLocation": {
+      "source": {
+        "type": 8
+      }
+    },
+    "additionalArguments": {
+      "source": {
+        "type": 8
+      }
+    },
+    "configFilePath": {
+      "source": {
+        "type": 8
+      }
+    },
+    "scanTypes": [
+      0,
+      1
+    ]
+  },
+  "issueSource": {
+    "reference": {
+      "info": {
+        "name": "project1",
+        "id": "656b2aad-c5e0-493b-b288-55d36971236f",
+        "displayName": "project1",
+        "depth": 2
+      },
+      "parent": {
+        "info": {
+          "name": "brtest2",
+          "id": "9d453a21-ad01-4f6b-bc2e-1d841af45ef3",
+          "displayName": "brtest2",
+          "depth": 1,
+          "localId": "poc.polaris.blackduck.com--brtest2-9d453a21-ad01-4f6b-bc2e-1d841af45ef3"
+        }
+      }
+    }
+  },
+  "buildConfig": {
+    "buildCommand": {
+      "source": {
+        "type": 8
+      }
+    },
+    "cleanCommand": {
+      "source": {
+        "type": 8
+      }
+    }
+  },
+  "workingDirectory": {
+    "value": "/Users/berta/Developer/Brae1117-good",
+    "source": {
+      "type": 8
+    }
+  },
+  "path": {
+    "source": {
+      "type": 8
+    }
+  }
+}

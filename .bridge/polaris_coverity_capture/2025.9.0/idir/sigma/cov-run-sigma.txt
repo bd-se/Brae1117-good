@@ -1,0 +1,9 @@
+Running Sigma.
+/Users/berta/.blackduck/bridge/tools/sigma/2025.10.0/sigma --config /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/sigma/sigma-config.json --internal-polaris-scan-log /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/2025.9.0/idir/sigma/sigma-log.json --internal-coverity-config /var/folders/1n/mv23pmhj5k33n0pxn2x7d0kh0000gn/T/cov-run-sigma-config-2325583073/coverity.yaml analyze /Users/berta/Developer/Brae1117-good
+
+Importing sources...
+Detected ISO-8859-1 encoding for /Users/berta/Developer/Brae1117-good/LICENSE
+Detected ISO-8859-1 encoding for /Users/berta/Developer/Brae1117-good/app.js
+Detected ISO-8859-1 encoding for /Users/berta/Developer/Brae1117-good/.gitignore
+Detected ISO-8859-1 encoding for /Users/berta/Developer/Brae1117-good/.codesight/scan_configs/Polaris.json
+Completed source import.

@@ -1,0 +1,14 @@
+/Users/berta/.blackduck/desktop/controller/installedtools/bridge/3.9.2/adapters/polaris-artifacts-uploader/versions/0.2.116/polaris-artifacts-uploader /Users/berta/Developer/Brae1117-good/.bridge/polaris_artifacts_uploader/data.json
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"uploading artifact for \"SAST(sastFull)\" assessment with id \"993db9ab-314e-47e7-abd2-b7f8df3ac529\"","time":"2025-11-16 19:12:47.2642 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"uploading artifact for \"SCA(scaPackage)\" assessment with id \"bac4f692-0687-47bf-ba1d-573409940c93\"","time":"2025-11-16 19:12:47.2650 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading artifact /Users/berta/Developer/Brae1117-good/.bridge/polaris_sca_package_manager_scan/blackduck-sca-artifacts.zip for \"SCA(scaPackage)\" assessment","time":"2025-11-16 19:12:47.9845 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading artifact /Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/idir.zip for \"SAST(sastFull)\" assessment","time":"2025-11-16 19:12:48.0037 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact:  18%  16384/86806","time":"2025-11-16 19:12:48.0879 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact:  56%  49152/86806","time":"2025-11-16 19:12:48.0880 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SCA(scaPackage)\" artifact: 100%  1013/1013","time":"2025-11-16 19:12:48.0902 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact:  94%  81920/86806","time":"2025-11-16 19:12:48.1213 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"Uploading Progress of \"SAST(sastFull)\" artifact: 100%  86806/86806","time":"2025-11-16 19:12:48.1214 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully uploaded artifact \"/Users/berta/Developer/Brae1117-good/.bridge/polaris_sca_package_manager_scan/blackduck-sca-artifacts.zip\"","time":"2025-11-16 19:12:48.8160 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully uploaded artifact \"/Users/berta/Developer/Brae1117-good/.bridge/polaris_coverity_capture/idir.zip\"","time":"2025-11-16 19:12:48.8229 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully resumed \"SCA(scaPackage)\" assessment with id \"bac4f692-0687-47bf-ba1d-573409940c93\"","time":"2025-11-16 19:12:49.2523 PST"}
+{"level":"info","logger":"Polaris Artifacts Uploader","msg":"successfully resumed \"SAST(sastFull)\" assessment with id \"993db9ab-314e-47e7-abd2-b7f8df3ac529\"","time":"2025-11-16 19:12:49.2526 PST"}
